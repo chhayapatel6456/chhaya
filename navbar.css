@@ -1,0 +1,839 @@
+
+
+*{
+scroll-behavior: smooth;
+
+}
+.nav li a {
+text-decoration: none;
+margin: 20px;
+font-weight: 400px;
+justify-content: center;
+display: flex;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin: 0px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    
+}
+.down{
+  border: 1px solid rgb(29, 29, 139);
+  color:rgb(29, 29, 139);
+  background-color: white;
+  padding: 4px;
+margin-left: 90px;
+
+}
+.down:hover{
+    background-color: white;
+    color: rgb(29, 29, 139);
+}
+@media(max-width:413px){
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        background-color: aqua;
+        margin: 0px;
+        padding: 20px;
+        position: sticky;
+        top: 0px;
+        
+    }
+    .nav li a {
+        text-decoration: none;
+        margin: 5px;
+        font-weight: 400px;
+        justify-content: center;
+        display: flex;
+        }
+        .down{
+            border: 1px solid rgb(29, 29, 139);
+            color:rgb(29, 29, 139);
+            background-color: white;
+            padding: 4px;
+          margin: 0px;
+          
+          }
+          .mainnav{
+            margin-left: 0px;
+          }
+          .img{
+            margin-left: 90px;
+          }
+}
+/*----------landing--------*/
+.landing{
+
+    display: flex;
+    justify-content: center;
+    background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+    border-top: 1px solid black;
+}
+.landing div img{
+    width: 600px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.landingdiv1{
+    padding-top: 200px;
+}
+.say{
+    border: 1px solid rgb(29, 29, 139);
+    color:rgb(29, 29, 139); 
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 70px;
+    background-color: white;
+    width: 100px;
+    height: 10px;
+    font-size: 20px;
+
+}
+.say:hover{
+    background-color:rgb(29, 29, 139);
+    color: white; 
+
+}
+.a2{
+    font-size: 20px;
+}
+@media(max-width:413px){
+
+    .landing{
+
+        display: block;
+        justify-content: center;
+        background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+        border-top: 1px solid black;
+    }
+    .landing div img{
+        width: 400px;
+        margin-top: 70px;
+        margin-left: 0px;
+    }
+    .landingdiv1{
+        padding-top:10px;
+        padding-left: 14px;
+    }
+}
+/*=====end landing======*/
+/* =====my client========= */
+.client{
+    background-color: rgb(10, 10, 67);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}.client img{
+    margin: 30px;
+    opacity: 0.5;
+
+}
+.topclient{
+    background-color: rgb(10, 10,65);
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-top: -4px;
+    margin-left: 10px;
+
+}
+@media(max-width:413px){
+
+    .client{
+        background-color: rgb(10, 10, 67);
+        display: block;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    
+}
+/* ======end my client========================== */
+/* =================Dedication================= */
+.dedication{
+    display: flex;
+    padding: 70px;
+    /* border: 2px solid rgb(13, 11, 11); */
+}
+.dedication div img{
+    width:60px ;
+}
+.dedication span{
+    font-size: 30px;
+    font-style: inherit;
+    padding: 20px;
+    font-weight: 300;
+}
+.dedication div div{
+     border: none;
+     font-size: 20px;
+     font-weight: 100; 
+     font-style: italic;
+}
+.dedication div{
+    padding: 50px;
+    border-right: 2px solid rgb(22, 18, 18);
+}
+@media(max-width:413px){
+    .dedication{
+        display: block;
+        padding: 70px;
+        /* border: 2px solid rgb(13, 11, 11); */
+    }
+    .dedication div{
+    padding: 50px;
+    border-right: none;
+}
+}
+/*===========end dedication=====================================*/
+/*=================================my skill====================================*/
+.main{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    /* margin: 0;!important */
+}
+.skill{
+    margin: 70px;
+}
+.skill2{
+    background-image: url("https://itemsstore.net/html/trito/img/skills/1.jpg");
+   /* background-image: url("https://itemsstore.net/html/trito/img/svg/elements.svg");*/
+    padding: 60px;
+}
+.main div span{
+     padding: 30px; 
+    color:rgb(28, 82, 210);
+    border: 2px solid rgb(28, 82, 210);
+    background-color: white;
+     margin: 10px; 
+    font-size: 15px;
+    font-style: bold; 
+}
+.a{
+    color: orangered;
+    font-size:20px;
+    padding-bottom: 20px;  
+}
+.b{
+    color: rgb(14, 14, 40);
+    font-size: 50px;
+    padding: 10px;
+    padding-bottom: 30pxpx;
+}
+.c{
+    color: grey;
+    font-size:20px ;
+    font-weight: 100;
+    font-style: inherit;
+}
+@media(max-width:413px){
+ 
+    .main{
+        display: block;
+        justify-content: center;
+        padding-left: 0px;
+        margin: 0px;
+        
+    }
+    .skill{
+        margin-left: 40px !important;
+        margin-bottom: 20px !important;
+        
+    }
+    .main div span{
+        padding: 24px; 
+       color:rgb(28, 82, 210);
+       border: 2px solid rgb(28, 82, 210);
+       background-color: white;
+        margin: 0px; 
+       font-size: 15px;
+       font-style: bold; 
+   }
+}
+/*=============================end my skill=====================================*/
+   /* ============================source====================================== */
+   .section{
+    display: flex;
+    justify-content: center; 
+    margin: 80px;
+   }
+   .section div{
+    margin: 60px;
+    display: flex;
+    font-size: 30px;
+   }
+   .section div u{
+    font-size: 60px;
+   }
+   .section div div{
+    margin: 0px;
+    margin: 10px;
+   }
+   @media(max-width:413px){
+    .section{
+        display: block;
+        justify-content: center; 
+        margin: 80px; 
+        margin-left: 20px;
+       }
+
+   }
+   /* =========================end source============================================= */
+/*=========================about===========================*/
+.position{
+    display: flex;
+    border: 2px solid rgb(16, 16, 41);
+    width: 150px;
+    padding: 20px;
+    position: relative;
+    top: 540px;
+    background-color: white;
+    margin-left: 80px;
+}
+.about{
+    background-image: url("https://itemsstore.net/html/trito/img/about/background.jpg");
+    display: flex;
+    border: 1px solid rgb(16, 16, 41);
+}
+.divimg{
+    margin-left: 70px;
+    width: 500px;
+}
+.hire{
+    border: 1px solid rgb(16, 16, 41) ;
+    width: 80px;
+    font-size: 20px;
+    background-color:rgb(16, 16, 41) ;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+.hire:hover{
+    background-color: white;
+    color:rgb(16, 16, 41)  ;
+}
+.div2{
+    display: flex;
+    margin: 20px;
+}
+.div3{
+    display: block;
+    margin:100px ;
+    margin-right: 90px;
+}
+@media(max-width:413px){
+    .about{
+        background-image: url("https://itemsstore.net/html/trito/img/about/background.jpg");
+        display: block;
+        border: 1px solid rgb(16, 16, 41);
+
+}
+.div2{
+    display: block;
+    margin-left: 0px;
+}
+
+}
+/*==========================end about=========================*/
+
+/* ==================5 images==================== */
+  
+  .imgage{
+    border:2px solid black;
+    width: 50%;
+    overflow: hidden;
+    margin: 10px;
+
+  }
+  .image51 img:hover{
+    scale: 1.2;
+    transition: scale 1s;
+  }
+  .image{
+    display: flex; !important
+  }
+  .image52{
+    border:2px solid black;
+    width: 33%;
+    overflow: hidden;
+    margin: 10px;
+
+  }
+  .image52 img:hover{
+    scale: 1.2;
+    transition: scale 2s ;
+  }
+  #chhaya{
+    display: flex;!important
+  }
+  @media(max-width:413px){
+    .image{
+        border:2px solid black;
+        width: 95%;
+        overflow: hidden;
+        margin: 10px;
+    
+      }
+      .image51 img:hover{
+        scale: 1.2;
+        transition: scale 1s;
+      }
+      .image{
+        display: block;
+      }
+      .image52{
+        border:2px solid black;
+        width: 95%;
+        overflow: hidden;
+        margin: 10px;
+    
+      }
+      .image52 img:hover{
+        scale: 1.2;
+        transition: scale 2s ;
+      }
+      #chhaya{
+        display: block;
+      }
+
+  }
+/* ====================end 5 images========================== */
+/* ====================faq==================== */
+
+.faq{
+    width: 75%;
+    background-color: rgb(4, 4, 62);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: -100px;
+    }
+    #check1:checked~ .faq{
+        margin-top: 10px;
+        transition: margin-top 2s;
+    }
+    .label1{
+        color: white;
+        font-size: 20px;
+        font-weight: 500px;
+        border-radius: 2px;
+        float: right;
+        background-color: green;
+        padding: 5px 10px 5px 10px;
+    }
+    .faq1{
+        width: 75%;
+        background-color: rgb(4, 4, 62);
+        border-radius: 5px;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 20px;
+       margin-top: 20px;
+    } 
+    #check2:checked~ .faq2{
+        margin-top: 10px;
+        transition: margin-top 2s;
+    }
+    .label2{
+        color: white;
+        font-size: 20px;
+        font-weight: 500px;
+        border-radius: 2px;
+        float: right;
+        background-color: green;
+        padding: 5px 10px 5px 10px;
+
+    }
+    .faq2{
+        width: 75%;
+        background-color: rgb(4, 4, 62);
+        border-radius: 5px;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+    
+    #check3:checked~ .faq3{
+        margin-top: 10px;
+        transition: margin-top 2s;
+    }
+    
+    .label3{
+        color: white;
+        font-size: 20px;
+        font-weight: 500px;
+        border-radius: 2px;
+        float: right;
+        background-color: green;
+        padding: 5px 10px 5px 10px;
+
+    }
+    .faq3{
+        width: 75%;
+        background-color: rgb(4, 4, 62);
+        border-radius: 5px;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+    
+    #check4:checked~ .faq4{
+        margin-top: 10px;
+        transition: margin-top 2s;
+    }
+    .label4{
+        color: white;
+        font-size: 20px;
+        font-weight: 500px;
+        border-radius: 2px;
+        float: right;
+        background-color: green;
+        padding: 5px 10px 5px 10px;
+
+    }
+    .faq4{
+        width: 75%;
+        background-color: rgb(4, 4, 62);
+        border-radius: 5px;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+    #check5:checked~ .faq5{
+        margin-top: 10px;
+        transition: margin-top 2s;
+    }
+    .label5{
+        color: white;
+        font-size: 20px;
+        font-weight: 500px;
+        border-radius: 2px;
+        float: right;
+        background-color: green;
+        padding: 5px 10px 5px 10px;
+
+    }
+    .faq5{
+        width: 75%;
+        background-color: rgb(4, 4, 62);
+        border-radius: 5px;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+    /* ===============================avalable========================= */
+    .avalable{
+        background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+        width: 100%;
+        height: 500px;
+        margin-top: 100px;
+
+    }
+    .avalable2{
+        padding-top:80px;
+        font-size:35px;
+        color: rgb(4, 4, 62) ;
+        opacity: .8;
+        padding-left:650px;
+        
+    }
+    .avalable3{
+        font-size: 23px;
+        font-weight: 200;
+        color:rgb(4, 4, 62)  ;
+        border: 1px solid rgb(4, 4, 62) ;
+        width: 400px;
+        padding: 20px;
+        background-color:white ;
+        margin-left: 660px;
+        font-style: bold;
+        margin-bottom: 400px;
+        
+    }
+    .avalable3:hover{
+        background-color:rgb(4, 4, 62)  ;
+        color: white;
+    }
+    /* ===========================end avalable========================= */
+    /* =================blog====================================== */
+    .blog{
+        width: 100%;
+        /* border: 1px solid black; */
+        height: 900px;
+        margin-top: 90px;
+         display: block; 
+         justify-content: center;
+    
+    }
+    .blog1{
+        font-size: 25px;
+        color: crimson;
+        margin-top: 100px;
+        margin-left: 260px;
+        
+    }
+    .blog2{
+        font-size: 30px;
+        color: rgb(4, 4, 62);
+        margin-left:260px ;
+    }
+    .blog3{ 
+        display: flex;!important
+    }
+    .bimg1{
+        border: 2px solid black;
+        width: 450px;
+        height: 300px;
+        overflow: hidden;
+        margin: 20px;
+        border-radius: 200px;
+        margin-left: 270px;
+    }
+    .bimg1 img:hover{
+        scale: 1.2;
+        transition: scale 2s ;}
+
+    .bimg2{
+        border: 2px solid black;
+        width: 450px;
+        height: 300px;
+        overflow: hidden;
+        margin: 20px;
+        border-radius: 200px;
+        /* margin-left: 270px; */
+    }
+    .bimg2 img:hover{
+        scale: 1.2;
+        transition: scale 2s ;
+    }
+
+    .bimg3{
+        border: 2px solid black;
+        width: 450px;
+        height: 300px;
+        overflow: hidden;
+        margin: 20px;
+        border-radius: 200px;
+        /* margin-left: 270px; */
+    }
+    .bimg3 img:hover{
+        scale: 1.2;
+        transition: scale 2s ;
+    }
+    .blog4{
+        width: 1900px;
+        height: 100px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .blog4 div{
+        padding: 60px;
+    
+    }
+    @media(max-width:413px){
+        .blog{
+            width: 100%;
+            /* border: 1px solid black; */
+            height: 900px;
+            margin-top: 90px;
+             display: block; 
+             justify-content: center;
+        
+        }
+        .blog2{
+            font-size: 18px;
+            color: rgb(4, 4, 62);
+            margin-left:30px ;
+        }
+        .blog1{
+            font-size: 20px;
+            color: crimson;
+            margin-top: 100px;
+            margin-left: 30px;
+            
+        }
+        .blog3{ 
+            display: block;
+        }
+        .bimg1{
+            border: 2px solid black;
+            width: 450px;
+            height: 300px;
+            overflow: hidden;
+            margin: 20px;
+            border-radius: 200px;
+            margin-left: 10px;
+        }
+        .blog4{
+            width: 1900px;
+            height: 100px;
+            font-size: 30px;
+            display: block;
+            justify-content: center;
+            margin-left: 0px;
+        }
+        .blog4 div{
+            padding: 60px;
+        
+        }
+    }
+
+    
+    /* =====================end blog=================================== */
+    /* =================contact====================== */
+    .contact1{
+        color: crimson;
+        font-size: 20px;
+
+    }
+    .contact2{
+        font-size: 60px;
+        font-weight: 900;
+        color: white;
+        margin: 10px;
+    }
+    .contact3{
+        font-size: 60px;
+        color: white;
+        margin: 10px;
+    }
+    
+    .maincontact{
+        background-image: url("https://itemsstore.net/html/trito/img/contact/background.jpg");
+         padding: 70px; 
+         display: flex; 
+         justify-content: center; 
+        margin: 90px; 
+        /* text-align: center; */
+
+    }
+    .maincontact input[type="text"],input[type="email"],textarea{
+        font-size: 20px;
+        padding: 20px;
+        width: 400px;
+        margin: 30px;
+    }
+    input[type="submit"]{
+        font-size: 20px;
+        padding: 20px;
+        width: 440px;
+        margin: 15px;
+        color:rgb(6, 6, 16);
+        background-color:rgb(8, 196, 133);
+    }
+    .submit1:hover{
+        background-color: rgb(4, 4, 62) ;
+        color: white;
+    }
+    .chhaya{
+     margin-top: 10px;
+     margin-right: 200px;
+     display: block;
+    }
+    #logos{
+        font-size: 30px;
+        color: white;
+        background-color: rgb(6, 6, 16);
+        padding: 20px;
+        margin: 20px;
+        border-radius: 50%;
+    }
+    .div2{
+        background-color: white;
+         padding: 10px; 
+        margin: 20px;
+        
+
+    }
+    .trito{
+        position: absolute;
+        width: 600px;
+        height: 150px;
+        border: 1px solid grey;
+        padding: 10px; 
+        background-color:grey ;
+        opacity: 0.4;
+        margin-top: 500px;
+        margin-right: 700px;
+    }
+    @media(max-width:413px){
+        .maincontact{
+            background-image: url("https://itemsstore.net/html/trito/img/contact/background.jpg");
+             padding: 70px; 
+             display: block; 
+             justify-content: center; 
+            margin: 10px; 
+             text-align: center; 
+             margin-top: 1100px;
+            width: 400px;
+        }
+        .contact1{
+            color: crimson;
+            font-size: 30px;
+    
+        }
+        .contact2{
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+            margin-top: 10px;
+        }
+        .canchor{
+            font-size: 10px;
+            padding-left: 0px;
+        }
+    }
+    /* ======================end contact==================== */
+    
+    
+
+
+
+    
+
+    
